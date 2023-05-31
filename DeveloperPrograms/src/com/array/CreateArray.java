@@ -22,7 +22,7 @@ public class CreateArray {
 		{
 			a[i]=sc.nextInt();
 		}
-		System.out.println(a);
+	//	System.out.println(a);
 		System.out.println("-------");
 		
 		for(int i=0;i<a.length;i++)

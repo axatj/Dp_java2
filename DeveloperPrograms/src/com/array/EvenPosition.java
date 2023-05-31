@@ -11,6 +11,7 @@ public static void evenP(int n[])
 		 
 		if(i%2==0)
 		{ 
+			
 	
 	System.out.println(n[i]);
 		}
