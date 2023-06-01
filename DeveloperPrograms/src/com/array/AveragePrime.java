@@ -20,7 +20,6 @@ public class AveragePrime {
      {
     	 sum+=num;
     	 count++;
-    	 
      }
  int avg=sum/a.length;
  System.out.println(Arrays.toString(a));

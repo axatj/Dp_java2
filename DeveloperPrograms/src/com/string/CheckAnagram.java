@@ -23,8 +23,37 @@ if(str1.length()==str2.length())
 	System.out.println(Arrays.toString(ch2));
 	
 	//sort logic
+	//for(int i=0;i<ch1.length;i++)
+	//{
+		//for(int j=i+1;j<ch1.length;j++)
+		//{
+			//if(ch1[i]>ch1[j])
+			//{
+			//	int temp=ch1[i];
+				//ch1[i]=ch1[j];
+			//	ch1[j]= (char)temp;
+		//	}
+	//	}
+//	}
+	//System.out.println(Arrays.toString(ch1));
 	Arrays.sort(ch1);
-	Arrays.sort(ch2);
+	/*
+	  for(int i=0;i<ch2.length;i++) 
+	  { 
+	  for(int j=i+1;j<ch2.length;i++) 
+	  {
+	  if(ch2[i]>ch2[j]) 
+	  {
+	   int temp=ch2[i];
+	    ch2[i]=ch2[j];
+	     ch2[j]=(char)temp; 
+	     }
+	      }
+	       }
+	       
+	  System.out.println(Arrays.toString(ch2));
+	 */
+	 Arrays.sort(ch2);
 	System.out.println("After sort------------");
 	System.out.println(Arrays.toString(ch1));
 	System.out.println(Arrays.toString(ch2));

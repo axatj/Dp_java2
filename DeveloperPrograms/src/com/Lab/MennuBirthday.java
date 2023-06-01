@@ -17,5 +17,4 @@ public class MennuBirthday {
     	System.out.println("invalid age");
     }
 	}
-
-}
+	}
